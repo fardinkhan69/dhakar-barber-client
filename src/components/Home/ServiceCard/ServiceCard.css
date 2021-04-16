@@ -1,0 +1,16 @@
+.service_box {
+    background-color: #fff;
+    padding: 40px 30px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0 50px 100px 0 rgb(64 1 4 / 10%), 0 -6px 0 0 rgb(248 99 107 / 0%);
+    box-shadow: 0 50px 100px 0 rgb(64 1 4 / 10%), 0 -6px 0 0 rgb(248 99 107 / 0%);
+    transition: all .5s ease;
+}
+.img-box img{
+    width:100px;
+    height: 100px;
+}
+.service_box:hover{
+    transform: translateY(-50px);
+}

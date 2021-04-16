@@ -1,0 +1,25 @@
+.barber-item-2 {
+    background-color: #fff;
+    min-height: 100%;
+    padding: 4.375rem;
+}
+.table-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.table-img-con {
+    z-index: 1;
+    width: 65%;
+}
+.table-img-con h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 2.812rem;
+    margin-top: -38%;
+
+}
