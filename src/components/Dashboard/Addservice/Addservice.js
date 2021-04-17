@@ -25,7 +25,7 @@ const Addservice = () => {
 
 
         }
-        const url = `http://localhost:5000/addService`;
+        const url = `https://safe-sierra-30196.herokuapp.com/addService`;
 
         fetch(url, {
             method: 'POST',
