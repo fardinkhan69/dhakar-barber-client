@@ -19,11 +19,11 @@ const Testimonials = () => {
     return (
        <section className="testimonials my-5 py-5">
            <div className="container">
-               <div className="section-header">
+               <div className="section-header text-center">
                    <h5 className="text-primary text-uppercase">Testimonial</h5>
-                   <h1>What Our Patients <br/> Says </h1>
+                   <h2>What Our Customers <br/> Says </h2>
                </div>
-               <div className="card-deck mt-5">
+               <div className="row mt-5">
                     {
                         testimonials.map(testimonial => <Testimonial testimonial={testimonial} key={testimonial.name}/>)
                     }

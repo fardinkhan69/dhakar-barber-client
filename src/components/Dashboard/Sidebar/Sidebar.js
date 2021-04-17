@@ -11,8 +11,11 @@ const Sidebar = () => {
                     <div className="col">
                         <h2>Dhakar Barber</h2>
                         <ul className="sidebar-menu">
-                            <li>Manage Product</li>
+                            <Link style={{ color: '#fff', textDecoration: 'none' }} to='/allAppointments'>  <li>Appointment List</li></Link>
+                            <Link style={{ color: '#fff', textDecoration: 'none' }} to='/manageService'>  <li>Manage service</li></Link>
                             <Link style={{ color: '#fff', textDecoration: 'none' }} to='/addService'>  <li>Add service</li></Link>
+                            <Link style={{ color: '#fff', textDecoration: 'none' }} to='/addTestimonial'>  <li>Review</li></Link>
+                            <Link style={{ color: '#fff', textDecoration: 'none' }} to='/booked'>  <li>Booking List</li></Link>
 
                         </ul>
                     </div>

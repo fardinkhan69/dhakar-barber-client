@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExtraSection = () => {
+const OurStory = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const ExtraSection = () => {
     );
 };
 
-export default ExtraSection;
+export default OurStory;

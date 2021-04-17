@@ -12,3 +12,17 @@
     background: transparent;
     border: 0;
 }
+.testimonials h2{
+    font-size: 55px;
+    color: #fff !important;
+}
+.testimonials h5{
+    
+    color: #4e1e02 !important;
+    font-weight: 800;
+    letter-spacing: 13px;
+}
+
+.testimonials{
+    background: #9e8a78;
+}

@@ -1,3 +1,24 @@
-.btn-brand{
+.btn-brand {
   background: #9e8a78 !important;
+  padding: 15px 45px !important;
+  font-family: 'Poppins' !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  
+
+}
+.bg-brand{
+  background: #9e8a78 !important;
+}
+.btn-brand:hover{
+  background: #412f20 !important;
+  color: #fff !important;
+}
+h1,h2{
+  font-family: 'Oswald', sans-serif;
+}
+
+p,h4,h5,h6{
+  
+  font-family: "Poppins", sans-serif;
 }

@@ -1,10 +1,12 @@
 .team-grid {
     color:#313437;
-    background-color:#fff;
+    background-color:#9e8a78;
+    color: #fff !important;
+    padding-top: 50px;
   }
   
   .team-grid p {
-    color:#7d8285;
+    color:#fff !important;
   }
   
   .team-grid h2 {
@@ -12,6 +14,7 @@
     margin-bottom:40px;
     padding-top:40px;
     color:inherit;
+    font-size: 55px;
   }
   
   @media (max-width:767px) {
@@ -56,7 +59,7 @@
     left:0;
     width:100%;
     height:100%;
-    background-color:rgba(31,148,255,0.75);
+    background-color:rgba(59, 31, 6, 0.76);
     transition:opacity 0.15s ease-in;
     opacity:0;
     padding-top:80px;

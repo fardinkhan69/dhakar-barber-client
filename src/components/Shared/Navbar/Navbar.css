@@ -229,3 +229,7 @@
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
+
+  .logo-clr{
+    color:#EEC8A7;
+  }

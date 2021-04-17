@@ -6,7 +6,7 @@ const Contact = () => {
 
             <div class="container" data-aos="fade-up">
 
-                <header class="section-header">
+                <header class="section-header text-center">
                     <h2>Contact</h2>
                     <p>Contact Us</p>
                 </header>
@@ -49,7 +49,7 @@ const Contact = () => {
                     </div>
 
                     <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" class="php-email-form">
+                        <form action=""class="php-email-form">
                             <div class="row gy-4">
 
                                 <div class="col-md-6">

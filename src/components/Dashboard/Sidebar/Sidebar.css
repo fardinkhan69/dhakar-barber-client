@@ -1,5 +1,5 @@
 .sidebar{
-    background-color: #1e4226;
+    background-color: #9e8a78;
     height: 100vh;
     padding-top: 5%;
     color:#fff;
@@ -10,7 +10,7 @@
     
 }
 .col-md-4.sidebar-bg {
-    background: #1e4226;
+    background: #9e8a78;
 }
 .sidebar-menu{
     list-style-type: none;
@@ -22,6 +22,6 @@
     padding: 10px 5px;
 }
 .sidebar-menu li:hover{
-    background-color: #455746;
+    background-color: #291a0c;
     cursor: pointer;
 }

@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { UserContext } from '../../../App';
 import './Navbar.css'
 const Navbar = () => {
+
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     return (
         // <div>
         //     <nav class="navbar navbar-expand-lg navbar-light container-fluid">
@@ -39,19 +43,22 @@ const Navbar = () => {
         <header id="header" class="d-flex align-items-center bg-dark">
             <div class="container d-flex align-items-center justify-content-between">
 
-                <h1 class="logo">Dhakar Barber<span>.</span></h1>
+                <h1 class="logo logo-clr">Dhakar Barber<span>.</span></h1>
 
 
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#about">About</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                        <li><Link to="/" className="nav-link scrollto active">Home</Link> </li>
+                        <li><Link to="/addTestimonial" className="nav-link scrollto">Dashboard</Link></li>
+
                         
-                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                        <li className="nav-item">
+                            {
+                                loggedInUser?.email ? <span className="nav-link text-white">{loggedInUser.name}</span> : <Link to="/login" className="nav-link"><button className="btn btn-primary site-btn">Login</button></Link>
+                            }
+
+                        </li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>

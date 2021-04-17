@@ -7,9 +7,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 
 import Sidebar from '../Sidebar/Sidebar';
 
-import './Addservice.css'
-
-const Addservice = () => {
+const Addtestimonial = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -17,25 +15,25 @@ const Addservice = () => {
 
 
     const onSubmit = (data, e) => {
-        const serviceData = {
+        const testimonialData = {
             name: data.name,
             img: imgURL,
-            price: data.price,
-            description: data.description
+            from: data.from,
+            quote: data.quote
 
 
         }
-        const url = `http://localhost:5000/addService`;
+        const url = `http://localhost:5000/addTestimonial`;
 
         fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(serviceData)
+            body: JSON.stringify(testimonialData)
         })
             .then(res => console.log(res))
-        console.log(serviceData);
+        console.log(testimonialData);
         e.target.reset();
     };
     const handleImageUpload = event => {
@@ -65,33 +63,33 @@ const Addservice = () => {
                     <div className="col-md-8 p-5 bg-light">
                         <div className="row">
                             <div className="col mt-5">
-                                <h3 className="text-left">Add Services</h3>
+                                <h3 className="text-left">Give us a Testimoial</h3>
                             </div>
                         </div>
                         <div className="row mt-5 p-2">
                             <div className="col bg-white p-4">
                                 <form onSubmit={handleSubmit(onSubmit)}>
                                     <div className="col">
-                                        <label for="product-name" class="form-label">Service Name</label>
+                                        <label for="product-name" class="form-label">Your Name</label>
                                         <input className="form-control p-2 my-2" type="text" placeholder="name" {...register("name", { required: true })} />
-                                        <label for="product-name" class="form-label">Price</label>
-                                        <input className="form-control p-2 my-2" type="number" placeholder="price" {...register("price", { required: true })} />
-                                        
+                                        <label for="product-name" class="form-label">from</label>
+                                        <input className="form-control p-2 my-2" type="text" placeholder="from" {...register("from", { required: true })} />
+
                                     </div>
                                     <div className="col">
-                                    <label for="description" class="form-label"> Upload Image</label>
-                                        <input  id="formFile" className="form-control" type="file" placeholder="photo" name="photo" onChange={handleImageUpload} />
-                                            <label for="description" class="form-label">description of product</label>
-                                            <textarea className="form-control" {...register("description", { required: true })} />
-                                        </div>
+                                        <label for="quote" class="form-label"> Upload Image</label>
+                                        <input id="formFile" className="form-control" type="file" placeholder="photo" name="photo" onChange={handleImageUpload} />
+                                        <label for="quote" class="form-label">quote of product</label>
+                                        <textarea className="form-control" {...register("quote", { required: true })} />
+                                    </div>
 
-                                    
-                                    
 
-                                    
-                                    
 
-                                    <input className="btn btn-primary w-50 mt-5"  type="submit" />
+
+
+
+
+                                    <input className="btn btn-primary w-50 mt-5" type="submit" />
                                 </form>
 
                             </div>
@@ -103,4 +101,4 @@ const Addservice = () => {
     );
 };
 
-export default Addservice;
+export default Addtestimonial;

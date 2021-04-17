@@ -3,7 +3,7 @@ import './WorkingHour.css';
 import sideImg from '../../../images/mostafa-meraji-D4-N4TiF2dc-unsplash.jpg'
 const WorkingHour = () => {
     return (
-        <section className="working-hour">
+        <section className="working-hour py-5 mt-5">
             <div className="container">
                 <div className="row">
                     <div className="col-md-7">

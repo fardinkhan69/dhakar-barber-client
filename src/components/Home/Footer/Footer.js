@@ -2,66 +2,66 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <section class="bg-light cc_cursor">
+        <section class="bg-brand">
             <div class="container">
                 <footer class="py-5 mt-md-5 border-top">
                     <div class="row">
                         <div class="col-12 col-md-4 mb-4">
                             
-                            <span class="font-weight-bold text-primary">Dhakar Barber</span>
-                            <small class="d-block mb-3 text-muted">
+                            <span class="font-weight-bold text-white">Dhakar Barber</span>
+                            <small class="d-block mb-3 text-white">
                                 Lorem ipsum dolor sit, amet consectetur
                                 adipisicing elit. Quo, labore!
                             </small>
                         </div>
                         <div class="col-6 col-md">
-                            <h5 class="text-primary">Features</h5>
+                            <h5 class="text-white">Features</h5>
                             <ul class="list-unstyled td-none text-small">
                                 <li>
-                                    <a class="link-secondary td-none"  href="#">Cool stuff</a>
+                                    <a class="text-white td-none"  href="#">Cool stuff</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Random feature</a>
+                                    <a class="text-white"   href="#">Random feature</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Team feature</a>
+                                    <a class="text-white"   href="#">Team feature</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Stuff for developers</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-6 col-md">
-                            <h5 class="text-primary">Resources</h5>
-                            <ul class="list-unstyled text-small">
-                                <li>
-                                    <a class="link-secondary"   href="#">Resource</a>
-                                </li>
-                                <li>
-                                    <a class="link-secondary"   href="#">Resource name</a>
-                                </li>
-                                <li>
-                                    <a class="link-secondary"   href="#">Another resource</a>
-                                </li>
-                                <li>
-                                    <a class="link-secondary cc_pointer"   href="#">Final resource</a>
+                                    <a class="text-white"   href="#">Stuff for developers</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-6 col-md">
-                            <h5 class="text-primary">About</h5>
+                            <h5 class="text-white">Resources</h5>
+                            <ul class="list-unstyled text-small ">
+                                <li>
+                                    <a class="text-white"   href="#">Resource</a>
+                                </li>
+                                <li>
+                                    <a class="text-white"   href="#">Resource name</a>
+                                </li>
+                                <li>
+                                    <a class="text-white"   href="#">Another resource</a>
+                                </li>
+                                <li>
+                                    <a class="text-white "   href="#">Final resource</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md">
+                            <h5 class="text-white">About</h5>
                             <ul class="list-unstyled text-small">
                                 <li>
-                                    <a class="link-secondary"   href="#">Team</a>
+                                    <a class="text-white"   href="#">Team</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Locations</a>
+                                    <a class="text-white"   href="#">Locations</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Privacy</a>
+                                    <a class="text-white"   href="#">Privacy</a>
                                 </li>
                                 <li>
-                                    <a class="link-secondary"   href="#">Terms</a>
+                                    <a class="text-white"   href="#">Terms</a>
                                 </li>
                             </ul>
                         </div>
