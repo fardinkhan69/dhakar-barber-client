@@ -11,7 +11,7 @@ const BookedAppointments = () => {
 
     const [bookingList, setBookingList] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/bookingList?email=' + loggedInUser.email)
+        fetch('https://safe-sierra-30196.herokuapp.com/bookingList?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => {
                 setBookingList(data)

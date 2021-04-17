@@ -11,7 +11,7 @@ const Booking = () => {
 
     const [bookingInfo, setBookingInfo] = useState({})
     const { id } = useParams()
-    const url = `http://localhost:5000/booking/${id}`;
+    const url = `https://safe-sierra-30196.herokuapp.com/booking/${id}`;
     // console.log(url)
     // console.log(id)
     useEffect(() => {
@@ -44,7 +44,7 @@ const Booking = () => {
 
         }
         console.log(bookingData)
-        const url = `http://localhost:5000/booked`;
+        const url = `https://safe-sierra-30196.herokuapp.com/booked`;
 
         fetch(url, {
             method: 'POST',

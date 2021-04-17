@@ -23,7 +23,7 @@ const Addtestimonial = () => {
 
 
         }
-        const url = `http://localhost:5000/addTestimonial`;
+        const url = `https://safe-sierra-30196.herokuapp.com/addTestimonial`;
 
         fetch(url, {
             method: 'POST',
