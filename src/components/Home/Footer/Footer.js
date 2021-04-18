@@ -1,4 +1,5 @@
 import React from 'react';
+import PaymentSystem from '../../Shared/PaymentSystem/PaymentSystem';
 
 const Footer = () => {
     return (
@@ -102,6 +103,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            
         </section>
     );
 };

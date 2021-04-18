@@ -8,6 +8,7 @@ import Team from '../Team/Team';
 import Testimonials from '../Testimonials/Testimonials'
 
 import WorkingHour from '../WorkingHour/WorkingHour';
+import PaymentSystem from '../../Shared/PaymentSystem/PaymentSystem';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
            
             <Contact></Contact>
             <Footer></Footer>
+            
         </div>
     );
 };

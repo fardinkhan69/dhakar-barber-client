@@ -4,6 +4,7 @@ import { UserContext } from '../../../App';
 import Sidebar from '../../Dashboard/Sidebar/Sidebar';
 import Navbar from '../../Shared/Navbar/Navbar';
 import { useForm } from 'react-hook-form';
+import PaymentSystem from '../../Shared/PaymentSystem/PaymentSystem';
 
 const Booking = () => {
 
@@ -86,7 +87,9 @@ const Booking = () => {
                                     <input className="form-control p-2 my-2"  type="date" placeholder="date" {...register("date", {required: true})} />
                                     </div>
 
-
+                                    <div className="container mt-5">
+                                    <PaymentSystem></PaymentSystem>
+                                    </div>
 
 
 
@@ -94,6 +97,7 @@ const Booking = () => {
 
                                     <input className="btn btn-primary w-50 mt-5" type="submit" />
                                 </form>
+                                
                             </div>
                         </div>
 

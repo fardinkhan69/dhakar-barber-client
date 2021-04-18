@@ -16,6 +16,7 @@ import Booking from './components/Booking/Booking/Booking';
 import BookedAppointments from './components/Booking/BookedAppointments/BookedAppointments';
 import Appointments from './components/Dashboard/Appointments/Appointments';
 import PrivateRoute from './components/Shared/PrivateRoute/PrivateRoute';
+import AddAdmin from './components/Dashboard/AddAdmin/AddAdmin';
 
 export const UserContext = createContext();
 
@@ -51,6 +52,9 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path="/booked">
             <BookedAppointments></BookedAppointments>
+          </PrivateRoute>
+          <PrivateRoute path="/addAdmin">
+            <AddAdmin></AddAdmin>
           </PrivateRoute>
         </Switch>
       </Router>
