@@ -14,3 +14,6 @@ Live site link : https://dhakar-barber.web.app/
 
 client side code link: https://github.com/Porgramming-Hero-web-course/complete-website-client-fardinkhan69
 server side code link : https://github.com/Porgramming-Hero-web-course/complete-website-server-fardinkhan69
+
+
+Tech used : React Js, Node Js , Mongo Db , Express Js ( MERN Stack ) , React Router , Bootstrap 5, Firebase Auth , Firebase Hosting , javascript , Html , css
